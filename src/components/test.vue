@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <main>Hey Home</main>
+  <main>Hey Test</main>
 </template>

@@ -1,14 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const test = () => {
+  console.log('er')
+}
+</script>
 
 <template>
   <div>
-    <h1>asdsad</h1>
+    <h1 @click="test">asdsad</h1>
     <div class="content">
       <div class="item">x</div>
       <div class="item">x</div>
       <div class="item">x</div>
+
       <div class="item">x</div>
       <div class="item">x</div>
+
       <div class="item">x</div>
       <div class="item">x</div>
     </div>
